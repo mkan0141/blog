@@ -1,7 +1,9 @@
 <template>
-  <article>
-    <nuxt-content :document="article"></nuxt-content>
-  </article>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
+    <article>
+      <nuxt-content :document="article"></nuxt-content>
+    </article>
+  </div>
 </template>
 
 <script lang="ts">
