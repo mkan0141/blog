@@ -1,8 +1,17 @@
 <template>
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
-    <article>
-      <nuxt-content :document="article"></nuxt-content>
-    </article>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 xl:max-w-6xl xl:px-0">
+    <div class="grid grid-cols-4">
+      <main class="col-span-3">
+        <article class="xl:px-5 xl:py-1">
+          <nuxt-content :document="article"></nuxt-content>
+        </article>
+      </main>
+      <aside class="col-span-1">
+        <div>
+          My Name is neko neko neko neko neko nkeo;
+        </div>
+      </aside>
+    </div>
   </div>
 </template>
 
