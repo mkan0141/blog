@@ -2,7 +2,7 @@
   <div class="max-w-5xl mx-auto px-4 sm:px-6 xl:max-w-6xl xl:px-0">
     <div class="grid grid-cols-4">
       <main class="col-span-3">
-        <article class="xl:px-5 xl:py-1">
+        <article class="break-words xl:px-5 xl:py-1">
           <nuxt-content :document="article"></nuxt-content>
         </article>
       </main>
