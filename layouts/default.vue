@@ -2,12 +2,14 @@
   <div>
     <Header />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Header from 'components/Header.vue'
+import Footer from 'components/Footer.vue'
 
 export default Vue.extend({
   
@@ -16,7 +18,7 @@ export default Vue.extend({
 
 <style>
 html {
-  background-color: #edf2f7;
+  background-color: white;
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
