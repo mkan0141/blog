@@ -2,7 +2,7 @@
   <div class="max-w-4xl mx-auto">
     <li class="py-4 border-b-2" v-for="article in recent_articles" :key="article.title">
       <div class="text-sm">{{ article.published_at }}</div>
-      <div class="mt-1 text-2xl font-bold leading-4"> {{ article.title }} </div>
+      <div class="mt-2 text-2xl font-bold leading-4"> <nuxt-link :to="article.url">{{ article.title }} </nuxt-link></div>
       <div class="mt-4">
         <div class="flex">
           <button class="bg-orange-500 text-sm text-white px-2 rounded tag" v-for="tag in article.tags" :key="tag">{{ tag }}</button>
