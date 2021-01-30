@@ -19,7 +19,7 @@ export default Vue.extend({
 <style>
 html {
   background-color: white;
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  font-family: -apple-system, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
