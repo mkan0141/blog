@@ -1,12 +1,25 @@
 <template>
   <div>
+    <Header />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
+<script lang="ts">
+import Vue from 'vue'
+import Header from 'components/Header.vue'
+import Footer from 'components/Footer.vue'
+
+export default Vue.extend({
+  
+})
+</script>
+
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  background-color: white;
+  font-family: -apple-system, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
