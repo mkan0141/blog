@@ -25,7 +25,6 @@ interface Article {
 export default Vue.extend({
   async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
-    console.log(article)
     return { article }
   },
   data() {
