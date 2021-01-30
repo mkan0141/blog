@@ -39,6 +39,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    'nuxt-fontawesome'
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -51,6 +52,10 @@ export default {
         theme: 'prism-themes/themes/prism-material-oceanic.css',
       },
     },
+  },
+
+  fontawesome: {
+    component: 'fa',
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
